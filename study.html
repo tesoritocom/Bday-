@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electron App</title>
+        <link href='https://fonts.googleapis.com/css?family=Pixelify Sans' rel='stylesheet'>
+        <link rel="stylesheet" href="./studyCss.css">
+    </head>
+    <body>
+        <!--Header Section-->
+        <header>
+            <div class="container">
+                <button id="backBtn" class="backBtn">
+                    <img src="./assets/back.png">
+                </button>
+                <button id="minimizeBtn" class="minimizeBtn">
+                    <img src="./assets/_.png">
+                </button>
+                <button id="closeBtn" class="closeBtn">
+                    <img src="./assets/x.png">
+                </button>
+            </div>
+            
+            <div class="choice-today">
+                <img id="contentImg" src="./assets/Study bg.jpg">
+
+                <div class="choices">
+                    <button id="choice1" class="choice1" data-page="pomodoro25.html">
+                        <img src="./assets/Twenty Five.png" alt="music">
+                    </button>
+
+                    <button id="choice2" class="choice2" data-page="pomodoro45.html">
+                        <img src="./assets/Forty five.png" alt="study">
+                    </button>
+
+                    <button id="choice3" class="choice3" data-page="list.html">
+                        <img src="./assets/Hour.png" alt="list">
+                    </button>
+                </div>
+            <img id="textImg" src="./assets/TextBox.png" alt="text">
+
+            <div class="text"></div>
+            </div>
+
+        
+
+        </header>
+        <script src="./studyScript.js"></script>
+    </body>
+</html>

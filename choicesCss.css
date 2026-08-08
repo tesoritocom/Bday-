@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 35px;
+    padding: 5px;
+    gap: 8px;
+}
+
+.container h1 {
+    font-size: 15px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #775537;
+}
+
+.container button {
+    background-color: #F2F5E2;
+    border: #ECA54B solid 2px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #775537;
+    color: #ECA54B;
+}
+
+body{
+    background-color: #FBE29D;
+}
+
+/** Choices page **/
+.choice-today {
+    position: relative;
+}
+
+#contentImg {
+    display: block;
+    width: 100vw;
+    height: 85vh;
+    margin: 0;
+    padding: 0;
+}
+
+.choices {
+    position: absolute;
+    display: flex;
+    left: 3%;
+    bottom: 90px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    z-index: 2;
+}
+
+/** Choice 1 **/
+.choice1 {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.choice1 img {
+    display: block;
+    width: 150px;
+    height: auto;
+    image-rendering: pixelated; /** Ensures the image retains its pixelated look **/
+}
+
+/** Choice 2 **/
+.choice2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.choice2 img {
+    width: 150px;
+    height: auto;
+    image-rendering: pixelated; /** Ensures the image retains its pixelated look **/
+}
+
+/** Choice 3 **/
+.choice3 {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.choice3 img {
+    width: 150px;
+    height: auto;
+    image-rendering: pixelated; /** Ensures the image retains its pixelated look **/
+}
+
+#textImg {
+    position: absolute;
+    display: block;
+    top: 100px;
+    right: 10px;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.text {
+    position: absolute;
+    display: block;
+    top: 220px;
+    left: 15%;
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 29px;
+    text-align: center;
+    color: #4d2e14;
+    pointer-events: none;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electron App</title>
+        <link href='https://fonts.googleapis.com/css?family=Pixelify Sans' rel='stylesheet'>
+        <link rel="stylesheet" href="./musicStyles.css">
+    </head>
+    <body>
+        <!--Header Section-->
+        <header>
+            <div class="container">
+                <button id="backBtn" class="backBtn" onclick="document.location.href='choices.html'">
+                    <img src="./assets/back.png">
+                </button>
+                <button id="minimizeBtn" class="minimizeBtn">
+                    <img src="./assets/_.png"
+                </button>
+                <button id="closeBtn" class="closeBtn">
+                    <img src="./assets/x.png"
+                </button>
+            </div>
+                <img id="contentImg" src="./assets/MusicBg.png">
+                <div class="music-player">
+
+                    <div class="album-section">
+                        <img id="song-image">
+                    </div>
+
+                    <div class="song-info">
+                        <div id="song-name">Song</div> 
+                        <div id="song-artist">Artist</div>
+                        <div id="music-controls">
+                            <input id="slider-song" type="range">
+                        </div>
+                        <div class="music-buttons">
+                            <button id="prev-song" class="control-btn"> ⏮
+                                <alt="Previous">
+                            </button>
+                            <button id="play" class="control-btn"> ▶
+                                <alt="Play">
+                            </button>
+                            <button id="next-song" class="control-btn"> ⏭
+                                <class="next-icon" alt="Next">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+
+        <script src="player.js"></script>
+    </body>
+</html>

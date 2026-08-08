@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+* {
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 35px;
+    padding: 5px;
+    gap: 8px;
+}
+
+.container h1 {
+    font-size: 15px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #775537;
+}
+
+.container button {
+    background-color: #F2F5E2;
+    border: #ECA54B solid 2px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #775537;
+    color: #ECA54B;
+}
+
+body{
+    background-color: #FBE29D;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer {
+    font-size: 3em;
+    color: #775537;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#icon {
+    width: 175px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    border-color: #775537;
+    background-color: #F2F5E2;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #775537;
+    color: #ECA54B;
+    transition: 0.2s ease-in-out;
+}
